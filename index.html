@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alamin Biswas">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tailwind Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Customization -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- Font awesome cdn -->
+      <script src="https://kit.fontawesome.com/761ce99df2.js" crossorigin="anonymous"></script>
+
+    <!-- Title -->
+    <title>Penguin fashion</title>
+    <link rel="shortcut icon" href="icons/title-logo.png" type="image/x-icon">
+</head>
+<body class="max-w-[1440px] mx-auto roboto-font">
+   <main class="px-8 md:px-16 lg:px-24 py-10 ">
+    <header>
+        <!-- navbar -->
+        <nav class="flex justify-between place-items-center">
+            <!-- nav-logo -->
+            <div class="w-2/4">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <!-- Nav menu -->
+            <div class=" gap-3 md:gap-5 hidden sm:flex">
+                <p>Home</p>
+                <p>Product</p>
+                <p>About us</p>
+                <p>Contact us</p>
+            </div>
+            
+            <div class="sm:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+        </nav>
+    </header>
+   </main>
+</body>
+</html>
